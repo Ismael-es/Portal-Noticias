@@ -22,9 +22,14 @@
         <div class="card-box p-4">
           <span class="pill pill-validacion mb-2 d-inline-block">En borrador</span>
           <h5 class="mt-2 titulo-noticia" ><?php echo $noticia['titulo']; ?></h5>
-            <?php if(!empty($noticia['imagen'])): ?>
+            <?php if(!empty($noticia['imagen'])){?>
               <img src="public/<?php echo $noticia['imagen']; ?>" width="400" heigth="400" alt="imagen noticia" class="img-fluid mb-2">
-            <?php endif; ?>
+            <?php } else{?>
+            <div class="alert alert-info py-2">
+              SIN IMAGEN
+            </div>
+
+            <?php } ?>
           <p class="text-muted texto-descripcion"><?php echo $noticia['descripcion']; ?></p>
           <div class="mb-3 divNombreUser">Autor: <strong class="text-dark"><?php echo $noticia['nombreUsuario']; ?>
           </strong> Fecha Creacion · <?php echo $noticia['fechaCreacion']; ?>
