@@ -1,0 +1,25 @@
+nombre: maxi elero
+mail: maxi@gmail.com
+contraseña:Maxi_123
+
+nomrbe: lucas Alcaraz 
+mail: lucas@gmail.com
+contraseña: Lucas_234
+
+nombre: antonella gatica
+mail:anto@gmail.com
+contraseña=Anto_123
+
+nombre: Lautaro martinez
+Gmail: lautaro@gmail.com
+contraseña: Lautaro_123
+
+nombre: jose
+Gmail:jose@gmail.com
+contraseña: Jose_123
+
+
+ADMINISTRADOR:
+nombre:admin
+Gmail:admin@gmail.com
+contraseña:Ismael_123

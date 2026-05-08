@@ -1,0 +1,3 @@
+http://localhost/portal-noticias/?c=usuario&a=login
+
+URL de la pagina web, se uso index.php para enrutar los controladores 
